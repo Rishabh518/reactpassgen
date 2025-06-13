@@ -50,7 +50,7 @@ useEffect(() => {
     special symbol <input type="checkbox" className='m-2' onChange={()=>setsymallow(!symallow)}  />
     {length}<input type="range"  className='w-20 m-2 bg-gray-300 text-black' onChange={(e) => setlength(Number(e.target.value))} value={length} min="4"
           max="20"/>
-    <button className='m-5'  onClick={passgenerator}> generaor</button>
+    <button className='m-5'  onClick={passgenerator}> generate</button>
    
     </>
   )
